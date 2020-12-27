@@ -161,7 +161,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 20px 200px 20px 200px;
+    margin: auto;
     font-size: 25px;
     text-align: center;
   }
@@ -276,19 +276,26 @@ section {
 
   /* FOOTER STYLES START */
 footer {
-    background: var(--primary-color);
+    background-image: url("../images/pexels-suzy-hazelwood-1629236.jpg");
     padding: 40px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 100%;
+    z-index: 9999;
+    background-blend-mode: inherit;
   }
   
   footer h2 {
-    color: var(--secondary-color);
-    font-size: 30px;
+    color: blanchedalmond;
+    font-size: 40px;
     display: flex;
     margin: 0;
+    text-align: center;
+    margin: auto auto auto 750px;
   }
   
   footer div {
@@ -297,6 +304,36 @@ footer {
   }
   
   footer a {
-    color: var(--secondary-color);
+    color: rgb(205, 174, 226);
+  }
+
+  footer p {
+      color: blanchedalmond;
+      text-align: center;
+      margin: auto auto auto 750px;
+      font-size: 20px;
+  }
+
+  address {
+    color: blanchedalmond;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto auto auto 750px;
+    font-size: 20px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .contact-info > * {
+    flex: 1;
+    margin: 15px;
+    text-align: center;
   }
   /* END FOOTER STYLES */
