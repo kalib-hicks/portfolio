@@ -188,6 +188,12 @@ section {
     float: right;
   }
 
+  .resume {
+    float: center;
+    margin-left: 850px;
+    margin-right: auto;
+  }
+
   /*  kalib START */
 .kalibs {
     width: 100%;
