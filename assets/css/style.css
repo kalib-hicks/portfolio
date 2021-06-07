@@ -185,7 +185,7 @@ section {
     width: 10%;
     height: 10%;
     border: 5px solid crimson;
-    float: right;
+    float: none;
   }
 
   .resume {
@@ -285,7 +285,7 @@ section {
   }
   
  
-  .kalib-img h3: {
+  .kalib-img h3 {
     position: relative;
     z-index: 1;
     font-size: 28px;
@@ -295,7 +295,7 @@ section {
   }
 
   
-  .kalib-img h4: {
+  .kalib-img h4 {
     position: relative;
     z-index: 1;
     font-size: 22px;
